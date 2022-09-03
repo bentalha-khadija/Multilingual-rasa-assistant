@@ -1,0 +1,59 @@
+version: "3.1"
+
+rules:
+
+- rule: pick_language
+  steps:
+  - intent: ask_language
+  - action: utter_ask_language
+
+- rule: welcome_user_fr
+  steps:
+  - intent: greet_fr
+  - action: utter_greet_fr
+- rule: welcome_user_ar
+  steps:
+  - intent: greet_ar
+  - action: utter_greet_ar
+- rule: welcome_user_en
+  steps:
+  - intent: greet_en
+  - action: utter_greet_en
+
+- rule: pick_statut_fr
+  steps:
+  - intent: language_fr
+  - action: utter_greet_fr
+  - action: utter_question_statut_fr
+
+
+- rule: pick_statut_ar
+  steps:
+  - intent: language_ar
+  - action: utter_greet_ar
+  - action: utter_question_statut_ar
+
+- rule: pick_statut_en
+  steps:
+  - intent: language_en
+  - action: utter_greet_en
+  - action: utter_question_statut_en
+
+- rule: thank_back_fr
+  steps:
+  - intent: thanks_fr
+  - action: utter_thanks_fr
+
+- rule: thank_back_ar
+  steps:
+  - intent: thanks_ar
+  - action: utter_thanks_ar
+
+- rule: thank_back_en
+  steps:
+  - intent: thanks_en
+  - action: utter_thanks_en
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot

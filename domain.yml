@@ -1,0 +1,113 @@
+version: "3.1"
+
+
+intents:
+  - ask_language
+  - language_fr
+  - language_ar
+  - language_en
+  - greet_fr
+  - greet_ar
+  - greet_en
+  - thanks_fr
+  - thanks_ar
+  - thanks_en
+
+responses:
+  utter_ask_language:
+  - text: "Salut👋🏻 Quelle langue voulez-vous utiliser ?"
+    buttons:
+    - title: "Français"
+      payload: '/language_fr'
+    - title: "العربية"
+      payload: '/language_ar'
+    - title: "English"
+      payload: '/language_en'
+
+  utter_greet_fr:
+  - text: "Salut Je suis ArchiteoBot! Comment je peux vous aidez?"
+    image: "https://media.giphy.com/media/MdMCVvLjbyyUhUeClf/giphy.gif"
+
+  utter_greet_ar:
+  - text: "مرحبًا أنا المساعد الافتراضي لـ Architeo، كيف يمكنني المساعدة؟ "
+    image: "https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif"
+  
+  utter_greet_en:
+  - text: "Hi. I am Architeo virtual assistant! How can I help you?"
+    image: "https://media.giphy.com/media/yrhhmre5fN2PtRujfo/giphy.gif"
+
+  utter_question_statut_fr:
+  - text: "Merci de choisir votre statut" 
+    buttons:
+    - title: "Entreprise"
+      payload: '/language_fr'
+    - title: "Condidat"
+      payload: '/language_en'
+
+  utter_question_statut_ar:
+  - text: "هل انت موظف او صاحب عمل؟" 
+    buttons:
+    - title: "الموظف"
+      payload: '/language_fr'
+    - title: "صاحب العمل"
+      payload: '/language_en'
+
+  utter_question_statut_en:
+  - text: "Click on what u present" 
+    buttons:
+    - title: "Company"
+      payload: '/language_fr'
+    - title: "Condidate"
+      payload: '/language_en'
+  
+  utter_thanks_fr:
+  - text: "Je vous en prie"
+  
+  utter_thanks_ar:
+  - text: "على الرحب و السعة"
+
+  utter_thanks_en:
+  - text: "You welcome 😊"
+  - text: "Anytime 😊"
+  - text: "See you soon!"
+
+
+
+
+
+
+
+
+
+# intents:
+#   - greet
+#   - goodbye
+#   - affirm
+#   - deny
+#   - mood_great
+#   - mood_unhappy
+#   - bot_challenge
+
+# responses:
+#   utter_greet:
+#   - text: "Hey! How are you?"
+
+#   utter_cheer_up:
+#   - text: "Here is something to cheer you up:"
+#     image: "https://i.imgur.com/nGF1K8f.jpg"
+
+#   utter_did_that_help:
+#   - text: "Did that help you?"
+
+#   utter_happy:
+#   - text: "Great, carry on!"
+
+#   utter_goodbye:
+#   - text: "Bye"
+
+#   utter_iamabot:
+#   - text: "I am a bot, powered by Rasa."
+
+# session_config:
+#   session_expiration_time: 60
+#   carry_over_slots_to_new_session: true

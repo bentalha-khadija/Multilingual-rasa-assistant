@@ -1,0 +1,46 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_en\"}}]": "utter_greet_en",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_en\"}}, {\"prev_action\": {\"action_name\": \"utter_greet_en\"}, \"user\": {\"intent\": \"greet_en\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_fr\"}}]": "utter_thanks_fr",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_fr\"}}, {\"prev_action\": {\"action_name\": \"utter_thanks_fr\"}, \"user\": {\"intent\": \"thanks_fr\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"language_fr\"}}]": "utter_question_statut_fr",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"language_fr\"}}, {\"prev_action\": {\"action_name\": \"utter_question_statut_fr\"}, \"user\": {\"intent\": \"language_fr\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_fr\"}}]": "utter_greet_fr",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_fr\"}}, {\"prev_action\": {\"action_name\": \"utter_greet_fr\"}, \"user\": {\"intent\": \"greet_fr\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_ar\"}}]": "utter_greet_ar",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_ar\"}}, {\"prev_action\": {\"action_name\": \"utter_greet_ar\"}, \"user\": {\"intent\": \"greet_ar\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_ar\"}}]": "utter_thanks_ar",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_ar\"}}, {\"prev_action\": {\"action_name\": \"utter_thanks_ar\"}, \"user\": {\"intent\": \"thanks_ar\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_language\"}}]": "utter_ask_language",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_language\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_language\"}, \"user\": {\"intent\": \"ask_language\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"language_en\"}}]": "utter_question_statut_en",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"language_en\"}}, {\"prev_action\": {\"action_name\": \"utter_question_statut_en\"}, \"user\": {\"intent\": \"language_en\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_en\"}}]": "utter_thanks_en",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_en\"}}, {\"prev_action\": {\"action_name\": \"utter_thanks_en\"}, \"user\": {\"intent\": \"thanks_en\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"language_ar\"}}]": "utter_question_statut_ar",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"language_ar\"}}, {\"prev_action\": {\"action_name\": \"utter_question_statut_ar\"}, \"user\": {\"intent\": \"language_ar\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_ar\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_en\"}}, {\"prev_action\": {\"action_name\": \"utter_thanks_en\"}, \"user\": {\"intent\": \"thanks_en\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_fr\"}}, {\"prev_action\": {\"action_name\": \"utter_thanks_fr\"}, \"user\": {\"intent\": \"thanks_fr\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_fr\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_fr\"}}, {\"prev_action\": {\"action_name\": \"utter_greet_fr\"}, \"user\": {\"intent\": \"greet_fr\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_ar\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_en\"}}, {\"prev_action\": {\"action_name\": \"utter_greet_en\"}, \"user\": {\"intent\": \"greet_en\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_en\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_ar\"}}, {\"prev_action\": {\"action_name\": \"utter_greet_ar\"}, \"user\": {\"intent\": \"greet_ar\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_fr\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thanks_ar\"}}, {\"prev_action\": {\"action_name\": \"utter_thanks_ar\"}, \"user\": {\"intent\": \"thanks_ar\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet_en\"}}]"
+    ]
+  }
+}

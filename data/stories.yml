@@ -1,0 +1,42 @@
+version: "3.1"
+
+stories:
+# - story: happy path fr
+#   steps:
+#   - intent: ask_language
+#   - action: utter_ask_language
+#   - intent: language_fr
+#   - action: utter_question_statut_fr
+
+# - story: happy path ar
+#   steps:
+#   - intent: ask_language
+#   - action: utter_ask_language
+#   - intent: language_ar
+#   - action: utter_question_statut_ar
+
+# - story: happy path en
+#   steps:
+#   - intent: ask_language
+#   - action: utter_ask_language
+#   - intent: language_en
+#   - action: utter_question_statut_en
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye

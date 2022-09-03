@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = " UTF - 8 "/>
+        <title>Architeo Bot</title>
+    </head>
+    <body>
+        <script>!(function () {
+            let e = document.createElement("script"),
+              t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+              "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js"),
+              // Replace 1.x.x with the version that you want
+              (e.async = !0),
+              (e.onload = () => {
+                window.WebChat.default(
+                  {
+                    title: "Architeo Assistant",
+                    initPayload: "/ask_language",
+                    customData: { language: "en" },
+                    socketUrl: "http://localhost:5005" ,
+                    // add other props here
+                    userBackgroundColor: "#ff7b00",
+                    userTextColor: "white",
+                    mainColor: "#ff6500",
+                    inputTextFieldHint: "Tapez votre réponse",
+                  },
+                  null
+                );
+              }),
+              t.insertBefore(e, t.firstChild);
+              window.localStorage.clear() // to clear conversation after refreshing the window
+          })();
+        </script>
+    </body>
+</html>
