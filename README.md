@@ -11,6 +11,11 @@
 > conda env create -f environment.yml
 > conda activate rasabot
 > ```
+> activate the environment using the following command
+> ```bash  
+> conda activate rasabot
+> ```
+> OR 
 > ### 1.2 Create an environment and activate it using pip :
 > ```bash
 > pip install -r requirements.txt
