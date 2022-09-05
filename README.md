@@ -11,10 +11,8 @@
 > conda env create -f environment.yml
 > conda activate rasabot
 > ```
-> activate the environment using the following command
-> ```bash  
-> conda activate rasabot
-> ```
+> 
+> 
 > OR 
 > ### 1.2 Create an environment and activate it using pip :
 > ```bash
@@ -40,6 +38,8 @@
 > rasa run -m models --enable-api --cors "*"
 > ```
 > > and then open the index.html file in the browser
+>
+>
 > Or 
 > 
 > ### 5. run the chatbot :
