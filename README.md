@@ -47,3 +47,4 @@
 > rasa shell
 > ```
 > > and then talk to the bot in the terminal
+> NB: The project is still on going
