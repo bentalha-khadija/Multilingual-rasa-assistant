@@ -45,11 +45,11 @@ responses:
       payload: '/language_en'
 
   utter_question_statut_ar:
-  - text: "هل انت موظف او صاحب عمل؟" 
+  - text: "الرجاء اختيار ماذا تمثل؟" 
     buttons:
-    - title: "الموظف"
+    - title: "مرشح"
       payload: '/language_fr'
-    - title: "صاحب العمل"
+    - title: "شركة"
       payload: '/language_en'
 
   utter_question_statut_en:
